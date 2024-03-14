@@ -1,0 +1,67 @@
+html, body, div, span, applet/*  */, object/*  */, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote/* цитата */, pre,
+a, abbr/* вбривиатура */, acronym, address/* адерссный тэг */, big, cite/* читата */, code/* блок кода */,
+del, dfn, em, img, ins, kbd, q/* цитата */, s, samp,
+small, strike, strong, sub/* нижний индекс */, sup/* верхний индекс */, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption/* название таблицы */, tbody, tfoot, thead, tr/* строка */, th/* ячейка */,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section/* мб несколько статей */, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* семантические теги */
+article/* всегда должны иметь в детях хотя-бы один заголовок 2-6 */, aside, details, figcaption/* подписб для картинки */, figure/* картинка */, picture/* можно внутри иметь несколько элементов картинки и можно выбирать из них */,
+footer, header, hgroup/* группа заголовков */, menu/* и на другие ссылки */, nav/* по сайту и странице */, section/* всегда должны иметь в детях хотя-бы один заголовок 2-6 */ {
+  display: block;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 0 */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}

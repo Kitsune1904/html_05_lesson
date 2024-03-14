@@ -1,0 +1,156 @@
+/* 1 */
+html {
+  font-size: 16px;
+}
+
+/* 1 */
+body {
+  font-size: 1rem;
+  line-height: 1;
+  background: #b4b4b4 url("../images/pink-flowers.webp");
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* 10 */
+.conteiner {
+  width: 88%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0 3.5%;
+}
+
+/* 10 */
+.header__heading,
+/* 10 */
+.article__heading,
+/* 10 */
+.important-main-text,
+/* 20 */
+.nav__link:hover {
+    color: #a11414;
+}
+
+/* 10 */
+.header__heading {
+  padding-top: 96px;
+  margin-bottom: 46px;
+  font-size: 2rem;
+}
+
+/* 10 */
+.header__heading--spec {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* 10 */
+.header__img-wrap {
+  padding: 14px 13px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  margin-bottom: 57px;
+}
+
+/* 11 */
+.header__img-wrap img {
+  width: 100%;
+}
+
+/* 10 */
+.section--flx {
+  display: flex;
+}
+
+/* 20 */
+.section--flx .article {
+  margin-right: 3px;
+}
+
+/* 10 */
+.article__heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* 10 */
+.article__item {
+  color: #1d1b1b;
+  text-indent: 40px;
+  margin-bottom: 31px;
+  line-height: 18.75px
+}
+
+/* 10 */
+.content-additional {
+    margin-top: 5px;
+    display: block;
+    text-indent: 0;
+}
+
+/* 10 */
+.special-main-text {
+  text-transform: uppercase;
+}
+
+/* 10 */
+.irrelevant-main-text {
+  text-decoration: line-through;
+}
+
+/* 10 */
+.nav-wrap {
+  width: 13%;
+  height: fit-content;
+  border-radius: 2px 15px;
+  background: #d7d7d7;
+  padding: 29px 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-shrink: 0;
+}
+
+/* 10 */
+.nav__heading {
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+/* 10 */
+.nav__link {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 20 */
+.nav__link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* 10 */
+.footer {
+  width: 85%;
+  margin-top: 4px;
+  padding-bottom: 18px;
+}
+
+/* 10 */
+.footer__line {
+  background: url("../images/back.gif") no-repeat 0 50%;
+  background-size: 100%;
+}
+
+/* 10 */
+.footer__item {
+  text-align: center;
+  padding: 7px 0 6px;
+  color: #403636;
+}
+
+/* 10 */
+.important-footer-text {
+  font-weight: 700;
+}
